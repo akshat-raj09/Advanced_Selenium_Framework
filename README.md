@@ -1,65 +1,60 @@
 
-# End to End Selenium Test Automation Framework (TestNG - Java).
+# Advanced Level End to End Selenium Test Automation Framework (TestNG - Java).
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-This repo contains 3 Maven projects :-
+The Application Under Test (AUT) is : ***[qdPM - Free Web-Based Project Management Software](https://qdpm.net/)*** i.e. run locally on the system.
 
-- ScreenerTest
-- Selenium Sessions NAL
-- SingletonPattern
+Before you refer to ***[this framework](https://github.com/akshat-raj09/Advanced_Selenium_Framework/tree/master/Advanced_Selenium_Test_Automation_Framework)***, You need to go through ***[Basic Level Framework](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/ScreenerTest).***
 
-### [1. Selenium Sessions NAL](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL) :
-This project describes basic concepts of Selenium & TestNG. This should give great start for beginner to selenium world.
+This is an *Advanced level Test Automation Framework* created using *Selenium - TestNG*, this should give a great start to an intermediate level user to advanced level selenium concepts.
 
-- [Selenium Basic Concepts](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL/src/seleniumBasics)
+Most of us learn all selenium concepts & basic framework development, but when it comes to advanced framework development, we lag there. This framework should help you on this.
 
-- [TestNG Concepts](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/Selenium%20Sessions%20NAL/src/com/testNG)
+**Framework include below capabilities :-**
 
-### [2. SingletonPattern](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/SingletonPattern) :
-This Maven project demonstrates how to use Singleton Pattern in Selenium Webdriver.
+**(i)** *Selenium - TestNG - Java.*
 
-### [3. ScreenerTest](https://github.com/akshat-raj09/Selenium_Java_NAL/tree/master/ScreenerTest) :
-This is basic level test automation framework created using Selenium - TestNG, this should give great start for beginner to selenium world.
+**(ii)** *Page Object Model (POM)* using By class locator strategy.
 
-Most of us learn all selenium concepts, but when it comes to framework development, we lag there. This framework should help you on this.
+**(iii)** Running Test Cases on *BrowserStack Cloud* using RemoteWebDriver Instance.
 
-Framework include below capabilities :-
+**(iv)** *Data Driven Framework* (using Apache POI API to read data from excel files) - Using *@DataProvider* TestNG Annotation.
 
-(i) Selenium - TestNG - Java.
+**(v)** *Threadsafe WebDriver* instance using Singleton pattern.
 
-(ii) Page Object Model (Page Factory).
+**(vi)** Threadsafe extent reporting & Setup *Extent Report* via TestNG Listeners.
 
-(iii) Data Driven Framework (using Apache POI API to read data from excel files) - Using dataprovider TestNG Annotation.
+**(vii)** *Automatic Screenshot Capture of failed test* cases & attaching those screenshots to Extent Report.
 
-(iv) Extent Report Included.
+**(viii)** Setup Logging (Using *Log4j2 API*) - To Support Parallel Test Execution.
 
-(v) Allure Report Included.
+**(ix)** Action Engine – Log every test action in Extent Report / Logger.
 
-(vi) Contains executable JAR file of the whole project.
+**(x)** *Database Validation* in Selenium - Java Test Case (Threadsafe).
 
-(vii) Included Log4j API for generating logs.
+**(xi)** Create DataDriven Test for TaskCreation & Execute in Parallel.
 
-(viii) Automatic screenshot Capture of failed test cases & attaching those screenshots to Allure Report & Extent Report.
-
-(ix) Video recording of test cases using Monte Video Recorder API.
+**(xii)** *Create Bug / Defect automatically in JIRA from Selenium Test Automation Framework (JIRA Rest API)* & Add Attachment (Screenshot of failed Test Case) to Jira Issue (via Jira Rest API).
 
 ## Run Locally
 
 - Clone the project
 
 ```bash
-  git clone https://github.com/akshat-raj09/Selenium_Java_NAL
+  git clone https://github.com/akshat-raj09/Advanced_Selenium_Framework
 ```
 
 - Go to the project directory
 
 ```bash
-  cd Selenium_Java_NAL
+  cd Advanced_Selenium_Framework
 ```
 
-- Open your Eclipse/IntelliJ IDE & import all the 3 projects one by one.
+- Open your Eclipse/IntelliJ IDE & import Advanced_Selenium_Framework project.
 
-- Run each project by:- Right click on testng.xml & select run as TestNG.
+- Search for [testng.xml](https://github.com/akshat-raj09/Advanced_Selenium_Framework/blob/master/Advanced_Selenium_Test_Automation_Framework/testng.xml) in the project.
+
+- Run the  project by :- Right click on [testng.xml](https://github.com/akshat-raj09/Advanced_Selenium_Framework/blob/master/Advanced_Selenium_Test_Automation_Framework/testng.xml) in the project. ------> Select Run As ------> TestNG.
     
 ## Contributing
 
